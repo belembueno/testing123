@@ -1,0 +1,74 @@
+html {
+	min-height: 100%;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	min-width: 960px;
+}
+
+.nav {
+	list-style-type: none;
+	padding: 0px;
+	display: flex;	
+}
+
+.nav li {
+	margin: .75em;
+}
+
+.nav a {
+	color: darkorange;
+}
+
+/* code for home page */
+.hero, .section {
+	border: 1px solid black;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero h1 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 62px;
+	color: darkorange;
+	opacity: .7;
+	font-family: 'Roboto Slab', sans-serif;
+
+}
+
+.hero {
+	background-image: url('images/desert1.jpg');
+	background-size: cover;
+	display: flex;
+	
+}
+
+.section {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+/* code for about page */
+
+.about {
+	background-image: url('images/desert2.jpg');
+}
+.columns {
+	display: flex;
+}
+.mini {
+	flex: 1;
+	margin: 20px;
+}
+
+
+/* code for about page */
+.blog {
+		background-image: url('images/desert4.jpg');
+
+}
+
