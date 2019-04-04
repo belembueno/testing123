@@ -1,0 +1,107 @@
+body {
+	font-family: sans-serif;
+}
+nav {
+	background-color: lightgrey;
+	padding: 2px 0px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.pagecontents {
+	border: 1px solid black;
+	padding: 5%;
+	display: flex;
+}
+
+.side, .main {
+	border: 1px solid blue;
+	padding: 2%;
+}
+
+.side {
+	flex: 1;
+}
+
+.main {
+	flex: 4;
+}
+
+
+
+/* Shoe section */
+
+.products {
+	display: flex;
+}
+
+.shoe {
+	font-family: sans-serif;
+	border: 1px solid grey;
+	padding: 2%;
+	width: 20%;
+}
+
+.shoe img {
+	width: 100%;
+}
+
+.shoe h5, .shoe h4, .shoe p {
+	margin: 0px;
+}
+
+.shoe h5 {
+	border-bottom: 1px solid grey; 
+	padding-bottom: 6px;
+}
+
+.shoe h4 {
+	padding: 6px 0px;
+}
+
+
+.shoe p {
+	color: lightgray;
+}
+
+
+/* shopping cart page */
+
+.cart {
+	padding: 10px;
+	width: 50%;
+}
+.summary {
+	border: 2px grey dotted;
+}
+table {
+	width: 100%;
+}
+table, td {
+  border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.orange, .paypal {
+	padding: 20px;
+	text-align: center;
+}
+.orange {
+	background-color: orange;
+	color: white;
+}
+.paypal {
+	background-color: white;
+	color: dodgerblue;
+}
+
+
